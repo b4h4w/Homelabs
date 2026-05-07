@@ -28,7 +28,7 @@
 
 **Default NAT:** This network can connect to the internet through NAT
 
-- This network has it's own DHCP capability to supply IP addresses since this is sitting outside manager network and firewall
+- This network has it's own DHCP capability to supply IP addresses outside the managed network and firewall
 - IP Address: 192.168.122.1/24
 - The DHCP IP range is: 192.168.122.2-254/24
 
