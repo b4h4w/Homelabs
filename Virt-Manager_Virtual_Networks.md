@@ -55,3 +55,6 @@
 ```
 
 &nbsp;
+
+**How these networks look like inside your homelab**
+[Virtual Network Diagram](Images/Virtual_Networks_for_homelab.drawio.png)
