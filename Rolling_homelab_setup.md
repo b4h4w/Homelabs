@@ -1,4 +1,4 @@
-Type 2 Hypervisor: Virt-Manager KVM/QEMU
+# Type 2 Hypervisor: Virt-Manager KVM/QEMU
 
 ### Virtual Networks 
 
@@ -6,9 +6,9 @@ Type 2 Hypervisor: Virt-Manager KVM/QEMU
     - Network: 172.16.0.0/24
     - DHCP range: Disabled
     - Forwarding: Isolated network
-- Nat Network
+- NAT Network
     - Network: 192.168.122.0/24
-    - DHCP range: 192.168.122.2-192.168.122.254
+    - DHCP range: 192.168.122.2-192.168.122.254/24
     - Forwarding: NAT
 
 &nbsp;
