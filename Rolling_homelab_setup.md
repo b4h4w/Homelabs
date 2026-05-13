@@ -1,4 +1,10 @@
-# Type 2 Hypervisor: Virt-Manager KVM/QEMU
+## Type 2 hypervisor: Virt-Manager KVM/QEMU
+
+Screenshot of my current homelab which shows how tracert traversed through firewall interfaces correctly before it goes to the router at 192.168.1.1/24 and how nslookup shows my server IP and Fully Qualified Domain Name (FQDN).
+
+![Current Setuo Screenshot](Screenshots/client-tracert-nslookup-Screenshot.png)
+
+&nbsp;
 
 ### Virtual Networks 
 
