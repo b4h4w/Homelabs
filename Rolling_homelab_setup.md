@@ -1,6 +1,6 @@
 ## Type 2 hypervisor: Virt-Manager KVM/QEMU
 
-Screenshot of my current homelab which shows how tracert traversed through firewall interfaces correctly before it goes to the router at 192.168.1.1/24 and how nslookup shows my server IP and Fully Qualified Domain Name (FQDN).
+Screenshot of my current homelab which shows how [tracert](https://support.microsoft.com/en-us/topic/how-to-use-tracert-to-troubleshoot-tcp-ip-problems-in-windows-e643d72b-2f4f-cdd6-09a0-fd2989c7ca8e) traversed through firewall interfaces correctly before it goes to the router at 192.168.1.1/24. Also, [nslookup](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup) confirms my DNS server which resolved to my Windows server IP and Fully Qualified Domain Name (FQDN).
 
 ![Current Setuo Screenshot](Screenshots/client-tracert-nslookup-Screenshot.png)
 
@@ -37,7 +37,7 @@ Screenshot of my current homelab which shows how tracert traversed through firew
     - DHCP installed (IP range: 172.16.1.100 - 172.16.1.254/24)
     - DNS installed
     - Default gateway: 172.16.1.1/24
-    - Active Director Domain Server (AD DS)  
+    - Active Directory Domain Server (AD DS)  
         - Domain: winsrv.lab
         - Promoted as Domain Controller
 
