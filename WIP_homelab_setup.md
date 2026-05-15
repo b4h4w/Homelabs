@@ -37,7 +37,7 @@ Screenshot of my current homelab which shows how [tracert](https://support.micro
     - DHCP installed (IP range: 172.16.1.100 - 172.16.1.254/24)
     - DNS installed
     - Default gateway: 172.16.1.1/24
-    - Active Directory Domain Server (AD DS)  
+    - Active Directory Domain Services (AD DS)  
         - Domain: winsrv.lab
         - Promoted as Domain Controller
 
