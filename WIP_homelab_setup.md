@@ -30,12 +30,13 @@ Screenshot of my current homelab which shows how [tracert](https://support.micro
         - Listening on LAN interface (172.16.1.1)
         - Domain: opnsense.local
         - Enable DHCP Registration and DHCP Static Mappings
+        - Added forwarding rule for: Domain: winsrv.lab Destination: 172.16.1.2 (the Windows DC DNS) Port 53 (UDP/TCP).
         - Firewall Rules (to be configured - default still)
 
 - **Server**: Windows Server 2022 Data Center version
     - IP: Static 172.16.1.2/24
     - DHCP installed (IP range: 172.16.1.100 - 172.16.1.254/24)
-    - DNS installed
+    - DNS installed: OPNsense LAN IP (172.16.1.1) added to Forwarders to allow the DC to resolve external names.
     - Default gateway: 172.16.1.1/24
     - Active Directory Domain Services (AD DS)  
         - Domain: winsrv.lab
