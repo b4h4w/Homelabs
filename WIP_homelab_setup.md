@@ -26,9 +26,9 @@ Screenshot of my current homelab which shows how [tracert](https://support.micro
     - WAN IP: DHCP leased from Virt-Manager NAT Network
     - Web GUI: http://172.16.1.1
     - DHCP on LAN: Disabled
-    - DNS: Unbound - Forward to Domain Controller (in this case, the Windows Server)
-        - DNS server: 172.16.1.2 added in pool
-        - Domain: winsrv.lab
+    - DNS: Unbound as the recursive resolver
+        - Listening on LAN interface (172.16.1.1)
+        - Domain: opnsense.local
         - Enable DHCP Registration and DHCP Static Mappings
         - Firewall Rules (to be configured - default still)
 
