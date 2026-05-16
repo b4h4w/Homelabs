@@ -6,6 +6,12 @@ Screenshot of my current homelab which shows how [tracert](https://support.micro
 
 &nbsp;
 
+### Diagram
+
+![Diagram](Images/WinServer22xWin10ClientxOPNsenseFirewall.png)
+
+&nbsp;
+
 ### Virtual Networks 
 
 - Isolated Network
