@@ -1,3 +1,5 @@
+Pre-installation guide for setting up the image file: https://openwrt.org/docs/guide-user/virtualization/qemu#openwrt_in_qemu_x86-64
+
 This setup is intended for testing only. No plan to increase the interfaces so no bridge was setup.
 
 2 interfaces are set as follows:
