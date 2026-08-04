@@ -8,7 +8,7 @@ Screenshot of my current homelab which shows how [tracert](https://support.micro
 
 ### Diagram
 
-![Diagram](Images/WinServer22xWin10ClientxOPNsenseFirewall.png)
+![Diagram](https://github.com/b4h4w/Homelabs/blob/9773ad24434c7d6c80e1322249a9eb4bf26e95f6/Images/WinServer22xWin10ClientxOPNsenseFirewallxKali.png)
 
 &nbsp;
 
