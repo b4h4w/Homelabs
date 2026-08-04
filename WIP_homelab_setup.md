@@ -15,7 +15,7 @@ Screenshot of my current homelab which shows how [tracert](https://support.micro
 ### Virtual Networks 
 
 - Isolated Network
-    - Network: 172.16.0.0/24
+    - Network: 172.16.1.0/24
     - DHCP range: Disabled
     - Forwarding: Isolated network
 - NAT Network
