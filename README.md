@@ -11,16 +11,19 @@
 </p>
 
 <p style="color: var(--text-muted); margin-bottom: 0.75rem;">
-  Everything to the right of the firewall is intentionally disposable. That segment hosts a rotating set of test machines and tools:
+  On to the right of, I have the regular IT related machines to test/break/build and is intentionally disposable.  I have also a separate section for Cybersecurity focused homelab for learning how to set things from the ground up and how to assess/respond to alert, as well as refining telemetry. That segment hosts a rotating set of test machines and tools:
 </p>
 
 <ul style="color: var(--text-muted); margin-bottom: 1rem; padding-left: 1.4rem;">
-  <li>Kali Linux for offensive, defensive, and OSINT work</li>
-  <li>Tails (configured with a Tor bridge) for darknet investigation</li>
-  <li>Windows 11, macOS, and ChromeOS instances for general client-side testing</li>
-  <li>GNS3 for network simulation</li>
-  <li>OpenWRT for router firmware and networking experiments</li>
-  <li>Planned: Ubuntu LTS Wazuh server (indexer + dashboard) and Wazuh agent on OPNsense for SOC and detection engineering practice</li>
+  <li>Parrot OS for offensive, defensive, and OSINT work.</li>
+  <li>Tails (configured with a Tor bridge) for darknet investigation.</li>
+  <li>Windows 11 with Sysmon installed for enriched telemetry and Wazuh agent for monitoring.</li>
+  <li>Headless Debian 13 with Apache2 server and Docker, Wazuh agent installed for monitoring.</li>
+  <li>Ubuntu LTS with Wazuh server (indexer + dashboard) as an SIEM/XDR and Suricata for IDS/IPS capability.</li>
+  <li>OpenWRT for router firmware and networking experiments.</li>
+  <li>Devuan Excalibur 6, duplicate of my host machine where I things before applying it to my machine.</li>
+  <li>Ventoy for when I need to flash a USB thumb drive with it.</li>
+  <li>And finally, MacOS and ChromeOS instances for general client-side testing</li>
 </ul>
 
 <p style="color: var(--text-muted); margin-bottom: 0;">
