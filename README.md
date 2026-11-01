@@ -7,11 +7,11 @@
 </p>
 
 <p style="color: var(--text-muted); margin-bottom: 1rem;">
-  Traffic between this private zone and the outside world is mediated by an OPNsense firewall (<code>172.16.1.1</code>). DHCP is disabled on the LAN side so the Windows Server remains authoritative. Unbound runs as the recursive resolver, with a specific forwarding rule for the <code>winsrv.lab</code> domain and upstream resolvers pointed at Cloudflare and Google (<code>1.1.1.1</code> / <code>8.8.8.8</code>). The firewall itself sits on the default libvirt NAT network (<code>192.168.122.0/24</code>).
+  Traffic between this private zone and the outside world is mediated by an OPNsense firewall (<code>172.16.1.1</code>). DHCP is disabled on the LAN side so the Windows Server remains authoritative. Unbound runs as the recursive resolver, with a specific forwarding rule for the <code>winsrv.lab</code> domain and upstream resolvers pointed at Cloudflare and Google (<code>1.1.1.1</code> / <code>8.8.8.8</code>).
 </p>
 
 <p style="color: var(--text-muted); margin-bottom: 0.75rem;">
-  On to the right of, I have the regular IT related machines to test/break/build and is intentionally disposable.  I have also a separate section for Cybersecurity focused homelab for learning how to set things from the ground up and how to assess/respond to alert, as well as refining telemetry. That segment hosts a rotating set of test machines and tools:
+  On to the right of, sits on the default libvirt NAT network (<code>192.168.122.0/24</code>), I have the regular IT related machines to test/break/build and is intentionally disposable.  I have also a separate section for Cybersecurity focused homelab for learning how to set things from the ground up and how to assess/respond to alert, as well as refining telemetry. That segment hosts a rotating set of test machines and tools:
 </p>
 
 <ul style="color: var(--text-muted); margin-bottom: 1rem; padding-left: 1.4rem;">
