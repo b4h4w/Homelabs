@@ -27,4 +27,4 @@
   The design keeps the production-like Windows domain clean and predictable while giving me a sandbox full of different operating systems and network tools that I can break, rebuild, or reconfigure without consequence. It’s a practical balance between stability for identity and DNS work and maximum freedom for everything else.
 </p>
 
-![Current Homelab Setup](https://github.com/b4h4w/b4h4w.github.io/blob/2696c84a83b2969ab9b53e80cabb41da7d296c85/assets/images/Full_current_homelab_setup_w_planned_Wazuh.drawio.png)
+![Current Homelab Setup](https://github.com/b4h4w/Homelabs/blob/1bb54bb85f4f6d8808bdd07f8d4e788e15c3a60e/Images/Current_homelab.drawio.png)
